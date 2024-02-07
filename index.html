@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Travel Website - Beranda</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Travel Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html">Destinasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tour-packages.html">Paket Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+      <div class="container">
+        <h1 class="display-3">Selamat Datang di Travel Website</h1>
+        <p class="lead">
+          Temukan destinasi impian Anda dan rencanakan petualangan tak
+          terlupakan bersama kami.
+        </p>
+        <a href="tour-packages.html" class="btn btn-primary btn-lg"
+          >Lihat Paket Wisata</a
+        >
+      </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="featured-destinations py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Destinasi Pilihan</h2>
+        <div
+          id="featuredDestinationsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Add destination cards as carousel items -->
+            <div class="carousel-item active">
+              <img
+                src="img/wisata1.jpg"
+                class="d-block w-100"
+                alt="Destinasi 1"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bali</h5>
+                <p>
+                  Siapa pun tak ada yang bisa menyangkal keindahan yang
+                  ditawarkan Pulau Dewata. Baru-baru ini, Bali didapuk menjadi
+                  destinasi paling populer di dunia versi Tripadvisor Travellers
+                  Choice tahun 2021.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/wisata2.jpg"
+                class="d-block w-100"
+                alt="Destinasi 2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Candi Borobudur</h5>
+                <p>
+                  Sobat Pesona pastinya sudah tidak asing kan dengan Candi
+                  Borobudur? Terletak di Kabupaten Magelang, Jawa Tengah, candi
+                  yang sangat megah dan rupawan ini telah dikenal oleh wisatawan
+                  lokal maupun mancanegara sebagai kuil Buddha terbesar di
+                  dunia.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/wisata3.jpg"
+                class="d-block w-100"
+                alt="Destinasi 3"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mandalika</h5>
+                <p>
+                  Membentang luas dari Sabang hingga Merauke, mengulas pesona
+                  destinasi wisata #DiIndonesiaAja emang enggak akan ada
+                  habisnya. Bener enggak, Sobat Pesona? Nah, salah satu kepingan
+                  surga tersembunyi di Bumi Ibu Pertiwi ini bisa ditemukan di
+                  NTB.
+                </p>
+              </div>
+            </div>
+            <!-- Add more destination items here -->
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#featuredDestinationsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#featuredDestinationsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Parallax Section -->
+    <section class="parallax-section text-center">
+      <div class="container">
+        <h2 class="text-white">Jelajahi Dunia Bersama Kami</h2>
+        <p class="lead text-white">
+          Nikmati pengalaman perjalanan yang tak terlupakan dengan layanan kami.
+        </p>
+        <a href="tour-packages.html" class="btn btn-light btn-lg"
+          >Jelajahi Sekarang</a
+        >
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Apa Kata Mereka ?</h2>
+        <div
+          id="testimonialsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Add testimonial cards as carousel items -->
+            <div class="carousel-item active">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Sebagai pengguna setia aplikasi pelayanan travel wisata,
+                    saya tak bisa lebih puas dengan pengalaman perjalanan saya.
+                    Dari pilihan destinasi yang menakjubkan hingga paket wisata
+                    yang terorganisir dengan baik, semuanya terasa begitu
+                    sempurna."
+                  </p>
+                  <p class="card-author">- Alhidayat Wardihan</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Terima kasih kepada aplikasi pelayanan travel wisata yang
+                    luar biasa ini! Pengalaman perjalanan saya menjadi lebih
+                    menyenangkan dan tak terlupakan. Dengan fitur-fitur canggih
+                    dan panduan yang informatif, dan mudah digunakan"
+                  </p>
+                  <p class="card-author">- Muhammad Asyraf</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Menggunakan aplikasi pelayanan travel wisata ini sungguh
+                    memberikan keceriaan tersendiri dalam setiap perjalanan
+                    saya. Fitur navigasi yang lengkap tentang destinasi membuat
+                    saya merasa lebih percaya diri dalam menjelajahi tempat"
+                  </p>
+                  <p class="card-author">- Gian Karunia T</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more testimonial items here -->
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Artikel Terbaru</h2>
+        <div class="row">
+          <!-- Add blog cards here -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/Blog1.png" class="card-img-top" alt="Blog 1" />
+              <div class="card-body">
+                <h5 class="card-title">Wisata Bali Penida</h5>
+                <p class="card-text">
+                  Menyediakan paket wisata, mulai dari paket wisata sehari,
+                  paket wisata dua hari satu malam, hingga paket wisata empat
+                  hari tiga malam.
+                </p>
+                <a href="https://wisatabalipenida.com/" class="btn btn-primary"
+                  >Baca Lebih Lanjut</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/blog2.png" class="card-img-top" alt="Blog 2" />
+              <div class="card-body">
+                <h5 class="card-title">Wonderful Indonesia</h5>
+                <p class="card-text">
+                  Menyediakan berbagai informasi tentang pariwisata Indonesia,
+                  mulai dari destinasi wisata, aktivitas wisata, akomodasi,
+                  hingga kuliner.
+                </p>
+                <a
+                  href="https://www.indonesia.travel/id/id/home"
+                  class="btn btn-primary"
+                  >Baca Lebih Lanjut</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/blog3.png" class="card-img-top" alt="Blog 3" />
+              <div class="card-body">
+                <h5 class="card-title">PT. LOMBOK KEREN</h5>
+                <p class="card-text">
+                  Menyediakan berbagai pilihan paket wisata, mulai dari paket
+                  wisata sehari, paket wisata dua hari, hingga paket wisata
+                  empat hari tiga malam.
+                </p>
+                <a
+                  href="https://www.indonesia.travel/id/id/home"
+                  class="btn btn-primary"
+                  >Baca Lebih Lanjut</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Add more blog items here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Hubungi Kami</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Masukkan nama Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Masukkan email Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Tulis pesan Anda"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <p>Anda juga dapat menghubungi kami melalui:</p>
+            <ul>
+              <li>Email: info@travelwebsite.com</li>
+              <li>Telepon: +123 456 7890</li>
+              <li>Alamat: Jalan Wisata Indah No. 123, Kota Wisata</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-1">
+      <div class="container">
+        <p class="text-center">
+          &copy; 2024 Travel Website. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

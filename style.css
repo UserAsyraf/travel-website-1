@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: url("img/senja.jpg") center/cover;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+/* Featured Destinations Styles */
+.featured-destinations {
+  padding: 50px 0;
+}
+
+.carousel-inner {
+  display: contents;
+  justify-content: center;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+
+/* Parallax Section Styles */
+.parallax-section {
+  background: url("parallax-background.jpg") center/cover fixed;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.parallax-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.parallax-section p {
+  font-size: 1.25rem;
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+  padding: 100px 0;
+}
+
+.card-text {
+  font-size: 1.25rem;
+}
+
+.card-author {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* Blog Section Styles */
+.blog-section {
+  padding: 50px 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  font-style: italic;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+.contact-section form {
+  margin-bottom: 30px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
